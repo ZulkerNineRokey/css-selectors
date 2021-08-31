@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS selectors</title>
+    <!-- element selector -->
+    <style>
+      p {
+        text-align: center;
+      }
+      /* id selector */
+      #cid {
+        background-color: blue;
+      }
+      /* class selector */
+      .cclass {
+        background-color: blueviolet;
+      }
+      /* universal selector */
+      * {
+        background-color: cyan;
+      }
+      /* grouping selector */
+      h1,
+      h2,
+      h3 {
+        font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+        color: rgb(255, 0, 85);
+        letter-spacing: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Know Thyself</h1>
+    <h2>Know your limit</h2>
+    <h3>Know the unknown</h3>
+    <p>I'm element selector</p>
+    <p id="cid">I'm CSS id Selector</p>
+    <p class="cclass">I'm CSS class Selector</p>
+    <p>I'm CSS Universal Selector</p>
+  </body>
+</html>
